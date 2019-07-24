@@ -1,12 +1,13 @@
 import React from 'react';
 
+
 function Member (props){
     return (
     <div>
         <p>
         {props.member.name}
     </p>
-    <p>
+       <p>
         {props.member.email}
     </p>
     <p>
